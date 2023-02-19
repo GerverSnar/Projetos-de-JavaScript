@@ -1,0 +1,48 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$dark-color: #343a40;
+$light-color: #f8f9fa;
+$gray-color: #e9ecef;
+
+$spacer: 1rem;
+
+body {
+  background-color: $light-color;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: $dark-color;
+}
+
+.navbar-brand {
+  color: $light-color;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: $light-color !important;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.main {
+  padding: $spacer;
+}
+
+footer {
+  background-color: $gray-color;
+  padding: $spacer;
+  color: $dark-color;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
